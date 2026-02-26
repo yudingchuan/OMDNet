@@ -6,8 +6,8 @@
 [![CVPR 2026](https://img.shields.io/badge/Paper-CVPR_2026-007EC6.svg?style=flat)](https://cvpr.thecvf.com/)
 
 ## 📰 News
-- **[2026/03]** OMoBlur dataset is officially released (see <a href="https://yudingchuan.github.io/OMoBlur_homepage/" target="_blank">Project Page</a>).
-- **[2026/02]** The training and testing code for OMDNet is now open-source. 
+- **[2026/03]** OMoBlur dataset will be officially released (see <a href="https://yudingchuan.github.io/OMoBlur_homepage/" target="_blank">Project Page</a>).
+- **[2026/02]** The code for OMDNet is now open-source. 
 - **[2026/02]** Our paper has been accepted by CVPR 2026.
 
 ---
@@ -15,8 +15,7 @@
 ## 🛠️ OMDNet Implementation Guide
 
 ### 1. Environment
-Please ensure you have Python and PyTorch installed (We use **Python 3.12** in our environment). Then, install the rest of the required dependencies using the provided `requirements.txt`:
-
+Please ensure you have Python and PyTorch installed (we use Python 3.12), and
 ```bash
 pip install -r requirements.txt
 
@@ -24,18 +23,15 @@ pip install -r requirements.txt
 
 ### 2. Demo
 
-We have provided several representative real-world blurred images (from the <a href="https://leiali.github.io/ReLoBlur_homepage/" target="_blank">ReLoBlur dataset</a> and Sony camera) in the `Real World Object Motion Blur/` directory for quick testing.
+We have provided several representative real-world blurred images (from the <a href="https://leiali.github.io/ReLoBlur_homepage/" target="_blank">ReLoBlur dataset</a> and Sony camera) in the `Real World Object Motion Blur/` directory.
 
-1. **Checkpoint**: Download the released model checkpoint and place it inside the `checkpoints/test1/` folder.
-2. **Run Demo**: Execute the following command to test the model:
+1. **Checkpoint**: Download the released <a href="https://drive.google.com/file/d/1duqA86H3xiEjupJ6qtGOGo3eFFWAIOH3/view?usp=sharing" target="_blank">model checkpoint</a> and place it inside the `checkpoints/test1/` folder.
+2. **Run Demo**: Execute the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python demo.py --config configs/OMD.yaml --exp_name test1 --reset
 
 ```
-
-
-
-The deblurred outputs and the corresponding gate maps will be automatically saved in the `demo_result/` folder.
+The deblurred outputs will be saved in the `demo_result/` folder.
 
 ### 3. Training
 
@@ -63,7 +59,7 @@ OMoBlur_Dataset/
 ```
 
 **Start Training:**
-Once the dataset is prepared, run the following command to train OMDNet on the OMoBlur train set:
+Once the dataset is prepared, run the following command to train OMDNet on the OMoBlur dataset:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py --config configs/OMD.yaml --exp_name trainOMD --reset
@@ -77,8 +73,6 @@ You can monitor the loss, metrics, and visual results via Tensorboard:
 tensorboard --logdir=./checkpoints/trainOMD/tb_logs --port=6037
 
 ```
-
-*(Note: Visual results are also saved in real-time to the `save_pic/` directory during training.)*
 
 ---
 
