@@ -50,8 +50,8 @@ OMoBlur_Dataset/
 │   └── image_sequence/
 │       └── <scene_dir>/ 
 │           └── <capture_dir>/ 
-│               ├── 003.png       # First frame within the blur interval
-│               └── 013.png       # Last frame within the blur interval
+│               ├── 003.png       # First frame within the blur interval (8-11//2)
+│               └── 013.png       # Last frame within the blur interval (8+11//2)
 └── val/
     ├── image_pairs/ ...
     └── image_sequence/ ...
