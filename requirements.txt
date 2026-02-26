@@ -1,0 +1,6 @@
+opencv-python
+tqdm
+einops
+tensorboard
+pyyaml
+pyiqa
