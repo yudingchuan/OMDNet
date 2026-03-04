@@ -6,7 +6,7 @@
 [![CVPR 2026](https://img.shields.io/badge/Paper-CVPR_2026-007EC6.svg?style=flat)](https://cvpr.thecvf.com/)
 
 ## 📰 News
-- **[2026/03]** OMoBlur dataset is released on Hugging Face / Baidu Netdisk (see <a href="https://yudingchuan.github.io/OMoBlur_homepage/" target="_blank">Project Page</a>).
+- **[2026/03]** OMoBlur dataset is released on Google Drive/Hugging Face/Baidu Netdisk (see <a href="https://yudingchuan.github.io/OMoBlur_homepage/" target="_blank">Project Page</a>).
 - **[2026/02]** The code for OMDNet is now open-source. 
 - **[2026/02]** Our paper has been accepted by CVPR 2026.
 
