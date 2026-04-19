@@ -1,0 +1,72 @@
+# trainer settings
+work_dir: '' # experiment directory.
+
+#############
+# dataset
+#############
+patch_size: 256 # training patch size
+force_blur_region_p: 0.7
+data_dir: /data/yudc/OMoBlur_dataset
+
+#########
+# train and eval
+#########
+num_ckpt_keep: 3
+tb_log_interval: 10
+
+val_check_interval: 2
+ckpt_save_interval: 2
+
+max_updates: 1000000
+batch_size: 8
+lr: 0.0001
+eval_batch_size: 1
+
+num_workers: 0 ##
+multiple_width: 4
+
+# MultiStepLR_milestones: [30, 50, 80, 100, 120, 150, 170, 200, 220, 240, 260, 280, 300, 340, 360, 400, 420, 460, 500, 530, 560, 600, 650, 700, 750, 800, 850, 900]
+MultiStepLR_milestones: [30, 50, 80, 100, 120, 150, 170, 200, 220, 240, 260, 280, 300, 340, 360, 400]
+# loss function coefficient
+lambda_warp: 0.05
+lambda_merge: 0.4
+lambda_r: 1.0
+lambda_g: 0.4
+
+lambda_l1: 1.0
+lambda_fft: 0.1
+
+
+tensorboard_imgs_show : [
+  '01/0009/008_11',
+  '01/0028/008_11',
+
+  '03/0002/008_11',
+
+  '04/0005/008_11',
+  '04/0010/008_11',
+
+  '05/0006/008_11',
+  '05/0012/008_11',
+
+  '06/0002/008_11',
+
+  '07/0001/008_11',
+  '07/0004/008_11',
+
+  '10/0002/008_11',
+  '10/0004/040_11',
+
+  '11/0002/040_11',
+
+  '13/0006/008_11',
+  '13/0007/008_7',
+
+  '15/0007/008_11',
+  '15/0018/008_11',
+  '15/0021/008_11',
+  '15/0026/008_11',
+
+  '16/0006/008_11'
+
+]
