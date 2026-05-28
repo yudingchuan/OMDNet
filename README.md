@@ -83,9 +83,11 @@ If you find the OMoBlur dataset or OMDNet helpful for your research, please cite
 
 ```bibtex
 @inproceedings{yu2026omoblur,
-  title     = {OMoBlur: An Object Motion Blur Dataset and Benchmark for Real-World Local Motion Deblurring},
-  author    = {Yu, Dingchuan and Li, Jiatong and Zhou, Jingwen and Zhuge, Zhengyue and Chen, Yueting and Li, Qi},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2026}
+    author    = {Yu, Dingchuan and Li, Jiatong and Zhou, Jingwen and Zhuge, Zhengyue and Chen, Yueting and Li, Qi},
+    title     = {OMoBlur: An Object Motion Blur Dataset and Benchmark for Real-World Local Motion Deblurring},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {22626--22635}
 }
 ```
