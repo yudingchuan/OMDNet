@@ -3,7 +3,7 @@
 [![Project Page](https://img.shields.io/badge/🚀_Project_Page-EXPLORE_NOW!-FF8C00.svg?style=for-the-badge)](https://yudingchuan.github.io/OMoBlur_homepage/)
 
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-B31B1B.svg?style=flat)](https://arxiv.org/)
-[![CVPR 2026](https://img.shields.io/badge/Paper-CVPR_2026-007EC6.svg?style=flat)](https://cvpr.thecvf.com/virtual/2026/poster/38965)
+[![CVPR 2026](https://img.shields.io/badge/Paper-CVPR_2026-007EC6.svg?style=flat)](https://openaccess.thecvf.com/content/CVPR2026/papers/Yu_OMoBlur_An_Object_Motion_Blur_Dataset_and_Benchmark_for_Real-World_CVPR_2026_paper.pdf)
 
 ## 📰 News
 -  OMoBlur dataset is released on Google Drive/ Hugging Face/ Baidu Netdisk (see <a href="https://yudingchuan.github.io/OMoBlur_homepage/" target="_blank">Project Page</a>).
